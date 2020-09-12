@@ -1,0 +1,95 @@
+
+.todo-item {
+    margin-left: 70px;
+    margin-top: 2px;
+    height: 25px;
+    width: 180px ;
+    font-size: 1em;
+    border-color: royalblue;
+    border-radius: 8px;
+    }
+    
+    .main {
+    margin:  0 auto ;
+    margin-top: 40px;
+    height: 600px;
+    width: 500px;
+    
+    }
+    
+    body{
+        width: 98%;
+        height: 910px;
+    background-image: url("image/todo-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+      
+    }
+    
+     .todo-btn{
+        background-color: royalblue;
+        color: whitesmoke;
+        margin-left: 5px;
+        border-radius: 8px;
+        height: 30px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    .main>h1{
+        text-align: center;
+        color: crimson;
+        text-decoration: underline;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3em;
+    }
+    .deleteall{
+        background-color: royalblue;
+        color: whitesmoke;
+        margin-left: 2px;
+        border-radius: 3px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 1em;
+        border-radius: 8px;
+    }
+     
+    .todo-item:hover{
+        background-color:lightgrey;
+    } 
+    .todo-btn:hover, .deleteall:hover{
+        background-color: crimson;
+    }
+    .delbtn{
+        background-color: royalblue;
+        color: whitesmoke;
+        margin-left: 10px;
+        cursor: pointer;
+        width: 70px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .delbtn:hover{
+        background-color: crimson;
+    }
+    
+    .liBtn{
+        margin-bottom: 13px;
+        font-size: 1.3em;
+        list-style: none;
+        
+    }
+    
+    .edit{
+        background-color: royalblue;
+        color: whitesmoke;
+        margin-left: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 70px;
+        height: 25px;
+    }
+    .edit:hover{
+        background-color: crimson;
+    }

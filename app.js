@@ -10,7 +10,7 @@ firebase.database().ref('todos').on('child_added',function(data){
     li.setAttribute("class", "liBtn")
     li.appendChild(liText)
 
-
+// creating delete button
 
     var btn =  document.createElement("button") 
     var btnText =  document.createTextNode("DELETE")
@@ -18,7 +18,8 @@ firebase.database().ref('todos').on('child_added',function(data){
     btn.setAttribute("id",data.val().key)
     btn.setAttribute("onclick", "delItem (this)")
     btn.appendChild(btnText)
-
+ 
+// creating EDIT button
 
     var editBtn = document.createElement("button")
     var editText = document.createTextNode("EDIT")
